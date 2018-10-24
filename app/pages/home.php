@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__.'/../../config.php';
+require_once __DIR__.'/../../config/config.php';
 $file_name = pathinfo(basename(__FILE__), PATHINFO_FILENAME);
 
 $content = <<<EOT
@@ -11,4 +11,4 @@ $content = <<<EOT
 
 EOT;
 
-require_once __DIR__.'/../app.php';
+require_once __DIR__.'/../layouts/app.php';

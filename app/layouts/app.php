@@ -7,10 +7,10 @@
 *
 */
 
-include 'inc/header.php';
+include __DIR__ . '/../inc/header.php';
 
-include 'inc/nav.php';
+include __DIR__ . '/../inc/nav.php';
 
     echo $content;
 
-include 'inc/footer.php';
+include __DIR__ . '/../inc/footer.php';

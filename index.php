@@ -6,11 +6,9 @@
 *
 */
 
-include $src_path . 'router.php';
+include __DIR__ . '/src/Router.php';
 
 $request = $_SERVER['REQUEST_URI'];
 $router = new Router($request);
 
-// Add route's here!
-$router->get('/home', 'app/home');
-$router->get('post', 'app/post');
+include __DIR__ . '/router.php';

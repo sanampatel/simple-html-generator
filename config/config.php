@@ -1,5 +1,9 @@
 <?php
 
+require_once 'app_config.php';
+
+
+$production         =   false;
 $site_url           =   "http://cal.test/";     // http://example.com/
 $site_title         =   "My Blog!";
 $site_keywords      =   "Blog, Fun, Dev";
@@ -12,12 +16,3 @@ $site_fbusername    =   "JohnDoeTheBlogger";
 $custom_html = <<<EOA
     <p>You can write html here!</p>
 EOA;
-
-
-// Advanced Settings : Do not edit any lines below this
-
-$app_path = __DIR__.'/app/';
-$public_path =  __DIR__.'/public/';
-$asset_path =  __DIR__.'/public/asset/';
-$inc_path =  __DIR__.'/app/inc/';
-$src_path =  __DIR__.'/src/';

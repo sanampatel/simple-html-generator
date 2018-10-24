@@ -1,9 +1,4 @@
-<?php
-    // echo __DIR__;
-    // die();
-    ob_start();
-    require_once __DIR__.'/../../config.php';
-?>
+<?php ob_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
