@@ -15,8 +15,8 @@
          </div>
          <div class="uk-navbar-right">
             <ul class="uk-navbar-nav uk-visible@m">
-               <li class="uk-active"><a href="#">Active</a></li>
-               <li><a href="#">Company</a></li>
+               <li class="uk-active"><a href="/">Active</a></li>
+               <li><a href="/post">Post Page</a></li>
                <li><a href="#">Our Products</a></li>
                <li><a href="#">Contact Us</a></li>
             </ul>
