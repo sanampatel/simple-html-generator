@@ -4,7 +4,7 @@ require_once 'app_config.php';
 
 
 $production         =   false;
-$site_url           =   "http://cal.test/";     // http://example.com/
+$site_url           =   "http://simple-html-generator.test";     // http://example.com
 $site_title         =   "My Blog!";
 $site_keywords      =   "Blog, Fun, Dev";
 $site_description   =   "Some detail regading your site!"; 

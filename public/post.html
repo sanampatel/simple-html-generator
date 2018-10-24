@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Blog!</title>
+    <title>1</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Meta tags, keep only those which required -->
     <meta name="description" content="Some detail regading your site!">
-    <meta name="image" content="https://via.placeholder.com/300?text=Calcualtors.ooo">
+    <meta name="keywords" content="Blog, Fun, Dev">
+    <link rel="icon" href="https://via.placeholder.com/300?text=Calcualtors.ooo">
+    <meta name="image" content="1">
 
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="1">
@@ -18,7 +20,7 @@
     <meta name="twitter:card" content="1">
     <meta name="twitter:title" content="1">
     <meta name="twitter:description" content="1">
-    <meta name="twitter:site" content="http://cal.test/">
+    <meta name="twitter:site" content="http://simple-html-generator.test">
     <meta name="twitter:creator" content="John Doe">
     <meta name="twitter:image:src" content="1">
 
@@ -33,19 +35,132 @@
 
     <!-- Replace with your frontend framework -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/css/uikit.min.css" />
-    <link rel="stylesheet" href="http://cal.test//css/style.css" />
 
+        <link rel="stylesheet" href="../../public/asset/css/style.css" />
+    
     <style type="text/css">
-      /* Add Custom CSS Here! */
-   </style>
+        /* Add quick style here! */
+    </style>
 
 </head>
 <body>
+    <div class="uk-offcanvas-content">
 
-Nav will be here!
-    <h1>Posts</h1>
+<!--HEADER-->
+<header class="uk-box-shadow-small" style="background-color: white">
+   <div class="uk-container uk-container-expand">
+      <nav class="uk-navbar" id="navbar" data-uk-navbar>
+         <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+         </div>
+         <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@m">
+               <li class="uk-active"><a href="#">Active</a></li>
+               <li><a href="#">Company</a></li>
+               <li><a href="#">Our Products</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="uk-navbar-item">
+               <a class="uk-navbar-toggle uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
+               <a href="#" class="uk-button uk-button-secondary uk-visible@m"><span data-uk-icon="sign-in"></span>SIGN UP</a>
+            </div>
+         </div>
+      </nav>
+   </div>
+</header>
+<!--/HEADER-->
 
-    My Blog!
+<!-- OFFCANVAS -->
+<div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: true">
+   <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+      <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
+      <ul class="uk-nav uk-nav-default">
+         <li class="uk-active"><a href="#">Active</a></li>
+         <li class="uk-parent">
+            <a href="#">Parent</a>
+            <ul class="uk-nav-sub">
+               <li><a href="#">Sub item</a></li>
+               <li><a href="#">Sub item</a></li>
+            </ul>
+         </li>
+         <li class="uk-nav-header">Header</li>
+         <li><a href="#js-options"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span> Item</a></li>
+         <li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: thumbnails"></span> Item</a></li>
+         <li class="uk-nav-divider"></li>
+         <li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: trash"></span> Item</a></li>
+      </ul>
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+   </div>
+</div>
+<!-- /OFFCANVAS -->
+<section class="uk-section uk-section-muted uk-padding-remove-bottom">
+    <div class="uk-container uk-container-small">
+        <h1 class="uk-heading-primary">My New Blog</h1>
+        <p>
+<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+    </div>
+</section>
+
+        <!--FOOTER-->
+        <footer class="uk-section-secondary">
+            <div class="uk-container uk-section">
+                <div class="uk-grid uk-child-width-1-3@l" data-uk-grid>
+                    <div>
+                        <h4>Our Company</h4>
+                        <ul class="uk-list uk-list-bullet">
+                            <li><a href="#" title="Laboris nisi ut aliquip">Laboris nisi ut aliquip</a></li>
+                            <li><a href="#" title="Excepteur sint occaecat">Excepteur sint occaecat</a></li>
+                            <li><a href="#" title="Culpa qui officia">Culpa qui officia</a></li>
+                            <li><a href="#" title="Duis aute irure dolor">Duis aute irure dolor</a></li>
+                            <li><a href="#" title="Consectetur adipisicing">Consectetur adipisicing</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4>Our Offices</h4>
+                        <ul class="uk-list uk-list-bullet">
+                            <li><a href="#" title="Laboris nisi ut aliquip">Laboris nisi ut aliquip</a></li>
+                            <li><a href="#" title="Excepteur sint occaecat">Excepteur sint occaecat</a></li>
+                            <li><a href="#" title="Culpa qui officia">Culpa qui officia</a></li>
+                            <li><a href="#" title="Duis aute irure dolor">Duis aute irure dolor</a></li>
+                            <li><a href="#" title="Consectetur adipisicing">Consectetur adipisicing</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Subscribe</h4>
+                        <form class="uk-grid uk-grid-collapse" action="price.html" data-uk-grid>
+                            <div class="uk-width-expand">
+                                <input class="uk-input" type="email" required name="email" placeholder="Your E-mail">
+                            </div>
+                            <div class="uk-width-auto">
+                                <button class="uk-button uk-button-primary" data-uk-icon="check"></button>
+                            </div>
+                        </form>
+                        <h4>Social Media</h4>
+                        <a href="" class="uk-icon-button  uk-margin-small-right" data-uk-icon="facebook"></a>
+                        <a href="" class="uk-icon-button  uk-margin-small-right" data-uk-icon="twitter"></a>
+                        <a href="" class="uk-icon-button" data-uk-icon="instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-section uk-section-xsmall" style="background-color: rgba(0,0,0,0.15)">
+                <div class="uk-container">
+                    <div class="uk-grid uk-child-width-1-2@s uk-text-center uk-text-left@s" data-uk-grid>
+                        <div class="uk-text-small uk-text-muted">
+                            &copy; Copyright 2017 - 2018 | All rights reserved.
+                        </div>
+                        <div class="uk-text-small uk-text-muted uk-text-center uk-text-right@s">
+                            <a href="https://github.com/sanampatel">Created by Sanam Patel</a> | Built with <a href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span data-uk-icon="uikit"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/FOOTER-->
+
+    </div><!-- offcanvas -->
     
     <!-- Add your custom javascript files here -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/js/uikit.min.js"></script>

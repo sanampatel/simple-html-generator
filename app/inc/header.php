@@ -8,6 +8,8 @@
     
     <!-- Meta tags, keep only those which required -->
     <meta name="description" content="<?= isset($page_description) ?: $page_description = $site_description; ?>">
+    <meta name="keywords" content="<?= isset($page_keywords) ?: $page_keywords = $site_keywords; ?>">
+    <link rel="icon" href="<?= isset($page_image) ?: $page_image = $site_image; ?>">
     <meta name="image" content="<?= isset($page_image) ?: $page_image = $site_image; ?>">
 
     <!-- Schema.org for Google -->
@@ -34,11 +36,17 @@
 
     <!-- Replace with your frontend framework -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/css/uikit.min.css" />
-    <link rel="stylesheet" href="<?= $site_url."/css/style.css" ?>" />
+
+    <?php if(!$production) { //Demo of production and development version condition! ?>
+    <link rel="stylesheet" href="<?= "../../public/asset/css/style.css" ?>" />
+    <?php } else { ?>
+    <link rel="stylesheet" href="<?= $site_url."/asset/css/style.css" ?>" />
+    <?php } ?>
 
     <style type="text/css">
-      /* Add Custom CSS Here! */
-   </style>
+        /* Add quick style here! */
+    </style>
 
 </head>
 <body>
+    <div class="uk-offcanvas-content">
