@@ -35,11 +35,11 @@
    <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
       <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
       <ul class="uk-nav uk-nav-default">
-         <li class="uk-active"><a href="#">Active</a></li>
+         <li class="uk-active"><a href="/">Active</a></li>
          <li class="uk-parent">
             <a href="#">Parent</a>
             <ul class="uk-nav-sub">
-               <li><a href="#">Sub item</a></li>
+               <li><a href="/post">Post Page</a></li>
                <li><a href="#">Sub item</a></li>
             </ul>
          </li>
