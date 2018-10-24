@@ -1,6 +1,0 @@
-# A basic redirect rule
-[[redirects]]
-    from = "/*.html"
-    to = "/*"
-    status = 301
-    force = true
