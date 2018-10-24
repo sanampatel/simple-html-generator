@@ -2,7 +2,7 @@
 
     require_once __DIR__.'/config.php';
 
-    $app_path   = __DIR__.'/app/';
+    $app_path   = __DIR__.'/app/pages/';
     $files_list = scandir($app_path, 1);
 
     // print_r($files_list);

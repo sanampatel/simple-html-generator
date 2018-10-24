@@ -9,6 +9,9 @@ $site_author        =   "John Doe";
 $site_type          =   "Blog";
 $site_fbusername    =   "JohnDoeTheBlogger";
 
+$custom_html = <<<EOA
+    <p>You can write html here!</p>
+EOA;
 
 
 // Advanced Settings : Do not edit any lines below this
@@ -17,3 +20,4 @@ $app_path = __DIR__.'/app/';
 $public_path =  __DIR__.'/public/';
 $asset_path =  __DIR__.'/public/asset/';
 $inc_path =  __DIR__.'/app/inc/';
+$src_path =  __DIR__.'/src/';
